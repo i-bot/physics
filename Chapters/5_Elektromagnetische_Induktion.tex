@@ -1,0 +1,103 @@
+\section{Elektromagnetische Induktion}
+
+\subsection{Induktionsgesetz (magnetisches Feld $B$)}
+
+\leftskip1em
+\paragraph{Induktionsspannung $U_{ind}$ im Leiterstück $L$ (Länge $l$ von $L$, $L$ befindet sich in
+$B$, Probeladung $Q$, Geschwindigkeit $v_Q$ von $Q$, $B \perp F_L \perp v_Q$)}
+
+\begin{align*}
+  U_{ind} &= l v_Q B
+\end{align*}
+
+\subparagraph{Lorentzkraft $F_L$ auf $L$}
+
+\begin{align*}
+  F_L &= Q v_Q B &\\
+\end{align*}
+
+\subparagraph{Resultierendes elektrisches Feld $E$}
+
+\begin{align*}
+  E &= \frac{U_{ind}}{l} &\\
+\end{align*}
+
+\subparagraph{Ausgleich zwischen $F_{el}$ und $F_L$}
+
+\begin{align*}
+  F_{el} &= F_L &\\
+  Q E &= Q v_Q B &\\
+  E &= v_Q B &\\
+\end{align*}
+
+\paragraph{Allgemeines Induktionsgesetz (Leiterschleife $L$, Windungszahl $N$ von $L$, Fläche $A$
+von $L$ eingeschlossen und von $B$ durchsetzt, Änderungszeit $\Delta t$)}
+
+\begin{align*}
+  U_{ind} &= \frac{\Delta A}{\Delta y} \cdot \frac{\Delta y}{\Delta t} \cdot B = \frac{\Delta
+  A}{\Delta t} \cdot B = \dot{A} \left( t \right) \cdot B &\\
+  U_{ind} &= \frac{\Delta B}{\Delta t} \cdot A = \dot{B} \left( t \right) \cdot A &\\
+  U_{ind} &= -N \cdot \dot{\Phi} &\\
+\end{align*}
+
+\subparagraph{magnetischer Fluss $\Phi$}
+
+\begin{align*}
+  \Phi &= B \cdot A &\\
+  [\phi] &= \frac{Vs}{m^2} \cdot m^2 = Vs &\\
+  \dot{\Phi} &= \dot{A} \left( t \right) \cdot B + \dot{B} \left( t \right) \cdot A &\\
+\end{align*}
+
+\leftskip0em
+
+\subsection{Erzeugung einer Wechselspannung $U_{ind}$ mit einer rotierenden Leiterschleife $L$
+(Magnetfeld $B$, Leiterschleife $L$, Windungszahl $N$ von $L$, Fläche $A$ von $L$ eingeschlossen und von $B$
+durchsetzt, Maximum $A_0$ von $A$, Winkelgeschwindigkeit $w$)}
+
+\begin{align*}
+  U_{ind} \left( t \right) &= -N \cdot B \cdot \dot{A} \left( t \right) = &\\
+  &= -N \cdot B \cdot \left( A_0 \cdot \dot{\cos} \left( w \cdot t \right) \right) = &\\
+  &= -N \cdot B \cdot A_0 \cdot \left( - \sin \left( w \cdot t \right) \cdot w \right) = &\\
+  &= N \cdot B \cdot A_0 \cdot w \cdot \sin \left( w \cdot t\right) = &\\
+  &= U_0 \sin \left( w \cdot t \right) &\\
+\end{align*}
+
+\leftskip1em
+\paragraph{Drehung um Winkel $\alpha$}
+
+\begin{align*}
+  \alpha &= w \cdot t = f \cdot 2 \pi &\\
+  \cos \alpha &= \frac{2x}{l} &\\
+  A &= A_0 \cdot \cos \alpha &\\
+\end{align*}
+
+\leftskip0em
+
+\subsection{Selbstinduktion (Spule $S$, Induktivität $L$ von $S$, Länge $l$ von $S$, Windungsszahl
+$N$ von $S$, magnetisches Feld $B$ von $S$, Fläche $A$ von $S$ eingeschlossen und von $B$
+durchsetzt, variable Stromstärke $I$)}
+
+\begin{align*}
+  \left| U_{ind} \right| &= N \cdot A \cdot \dot{B} &\\
+  B &= \mu_0 \mu_r \cdot \frac{N \cdot I}{l} &\\
+  &\\
+  \left| U_{ind} \right| &= N \cdot A \cdot \mu_0 \mu_r \cdot \frac{N}{l} \cdot \dot{I} &\\
+  U_{ind} &= -L \cdot \dot{I}
+\end{align*}
+
+\leftskip1em
+\paragraph{Induktivität}
+
+\begin{align*}
+  L &= \mu_0 \mu_r \cdot N^2 \cdot \frac{A}{l} &\\
+  [L] &= \frac{Vs \cdot m^2}{Am \cdot m} = \frac{Vs}{A} = H(enry) &\\
+\end{align*}
+
+\paragraph{Energiegehalt $E_{mag}$ von $S$}
+
+\begin{align*}
+  E_{mag} &= \frac{1}{2} \cdot L I^2 &\\
+  [E_{mag}] &= \frac{Vs}{A} \cdot A^2 = VAs = J &\\
+\end{align*}
+
+\leftskip0em
